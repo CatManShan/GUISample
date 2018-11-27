@@ -13,6 +13,8 @@ public class AppFrame extends JFrame
 		super();
 		
 		appPanel = new AppPanel(controller);
+		
+		setupFrame();
 	}
 	
 	private void setupFrame()
